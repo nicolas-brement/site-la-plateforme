@@ -103,7 +103,7 @@ main {
 }
 
 .fondtitre {
-    background-color: white;
+    background-color: #f6f6f6f5;
     display: flex;  
     width: 100%;
     justify-content: center;

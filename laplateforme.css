@@ -8,7 +8,6 @@
 
 .parent {
     align-items: center;
-    padding-left: 10px;
     width: 100%;
 }
   
@@ -24,11 +23,13 @@ ul{
     align-items: center;
     justify-content: end;
     margin-right: 60px;
+    font-size: medium;
     
 
 }
 li{
-    padding-left: 40px;
+    display: flex;
+    padding-left: 50px;
     margin-top: 10px;
   }
 
@@ -48,8 +49,6 @@ nav {
     margin: auto;
     display: flex;
     flex-direction: row;
-    /* width: 50%; */
-    
 }
 
 .pres > div {
@@ -64,15 +63,15 @@ nav {
     width: 50%;
     margin: 6%;
     margin-left: 10%;
-    justify-content: flex-start;
+    flex-direction: column;
     
 }
 .pres3{
     background-color: indianred;
     display: flex;
-    width: 70%;
+    width: 75%;
     margin-top: 0pt;
-    margin-right: -5pt;
+    
 }
 
 #photo {
@@ -81,16 +80,6 @@ nav {
     height: 100%;
 }
 
-button {
-    display: flex;
-    background-color: #ff2063;
-    color: white;
-    width: 90%;
-    border-radius: 50px;
-    padding-left: 35px;
-    block-size: 15%;
-    font-size: 22px;
-}
 
 .inscription {
     display: flex;
@@ -109,15 +98,11 @@ main {
     justify-content: center;
 }
 
-.fondtitre h1 {
-   
-}
-
-
 h1 {
     display: flex;
     color: #336699;
     font-size: xx-large;
+    font-weight: 700;
     margin: 4%;
     text-align: center;  
 }
@@ -183,16 +168,6 @@ h1 {
    
 }
 
- /* .bouton1 {
-    display: flex;
-    width: 90%;
-    border-radius: 50px;
-    padding-left: 35px;
-    block-size: 15%;
-    font-size: 20px;
-    height: 55px;
-}*/
-
 .containerimg { 
     display: flex;
     margin-bottom: 15%;
@@ -210,22 +185,61 @@ h1 {
 
 }
 
-button {
+.bouton1 {
+    display: flex;
+    background-color: #ff2063;
+    color: white;
+    width: 75%;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 60px;
+    padding-left: 15px;
+    font-size: 13px;
+    height: 55px;
+    align-items: center;
+    
+}
+
+.bouton2 {
     display: flex;
     background-color: #ffca4b;
     color: white;
     width: 100%;
+    margin-top: 60px;
     border-radius: 50px;
     padding-left: 15px;
-    block-size: 15%;
     font-size: 13px;
     height: 55px;
     text-align: center;
-    margin-top: 60px;
     align-items: center;
+    justify-content: center;
 }
 
-.button_hero {
-    background-color: #f6f6f6f5;
+.bouton2:hover {
+    -webkit-transform: scale(1.25);
+    transition: .5s ease;
+}
 
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: x-large;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+}
+
+h3 {
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+h2:hover {
+    -webkit-transform: scale(1.15);
+    transition: .5s ease;
 }
